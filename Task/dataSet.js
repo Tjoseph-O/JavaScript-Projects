@@ -28,4 +28,4 @@ let inputRow = Number(prompt("input a row"));
 let inputStartColom = Number(prompt("input a Start Colom"))
 let inputEndColom = Number(prompt("Enter a number for EndColom"))
 
-console.log(emptyArray[inputRow].slice(inputStartColom,inputEndColom))
+ console.log(emptyArray[inputRow].slice(inputStartColom,inputEndColom))
