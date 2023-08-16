@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonie</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-container">
+    <div class="heading-container">
+        <div class="heading-left">
+            <h1>Phonie</h1>
+        </div>
+        <div class="heading-right">
+            <div class="get-in-touch-container">
+                <a href="https://www.google.com/">
+                    <img src="images/globe.svg" alt="globe">
+                </a>
+            </div>
+            <button href="index.html">Get in touch</button>
+        </div>
+    </div>
+
+    <div class="body-container">
+        <div>
+            <hr>
+        </div>
+        <div class="contact-us">
+            <p>service@phonie.ng</p>
+            <a href="mailto: dejimartins99@gmail.com">
+                <img src="images/arrow-right.svg" alt="arrow-right">
+            </a>
+        </div>
+        <div class="form-box">
+            <div class="form-container">
+                <h1>Get In Touch</h1>
+                <p>Our friendly team would love to hear from you</p>
+
+                <div action="" class="form-body-container">
+                    <div class="telecom-carrier">
+                        <p>Choose your carrier:</p>
+                        <div>
+                            <select name="telecomCarrier" id="telecomCarrier">
+                                <option value="9mobile">9Mobile</option>
+                                <option value="airtel">Airtel</option>
+                                <option value="glo">Glo</option>
+                                <option value="mtn">Mtn</option>
+                            </select>
+                        </div>
+                    </div>
+                    <form action="">
+                        <div class="name-container" style="width: 100%;">
+                            <div class="input-container" style="width: 43%;">
+                                <div class="label-container">
+                                    <label for="firstname">FirstName</label>
+                                </div>
+                                <input type="text" name="firstname" required>
+                            </div>
+                            <div class="input-container" style="width: 43%;">
+                                <div class="label-container">
+                                    <label for="lastName">LastName</label>
+                                </div>
+                                <input type="text" name="lastname" required>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <div class="label-container">
+                                <label for="email">Email</label>
+                            </div>
+                            <input type="text" name="email" required>
+                        </div>
+                        <div class="input-container">
+                            <div class="label-container">
+                                <label for="phoneNumber">Phone Number</label>
+                            </div>
+                            <input type="tel" id="telephone" name="telephone" maxlength="14" pattern="" title="Invalid number for selected carrier" autocomplete="on" required>
+                            <img src="" alt="telecom icon" id="telecomIcon">
+                        </div>
+                        <div class="input-container">
+                            <div class="message-label-container">
+                                <label for="email">Message</label>
+                            </div>
+                            <textarea name="Message" cols="30" rows="3"></textarea>
+                        </div>
+                        <button type="submit" id="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
